@@ -7,6 +7,7 @@
 
 $index: calc(1vw + 1vh);
 $transitions: .6s cubic-bezier(.05, .5, 0, 1);
+$long-size: calc($index * 7.8);
 
 @font-face {
 	font-family: kamerik-3d;
@@ -25,12 +26,12 @@ body {
 }
 
 .logo {
-	width: calc($index * 7.8);
-	height: calc($index * 7.8);
+	width: $long-size;
+	height: $long-size;
 	background-repeat: no-repeat;
 	position: absolute;
-	left: 50%;
-	top: 10%;
+	left: calc(50% - $long-size / 2);
+	top: calc($index * 2.8);
 	z-index: 1;
 }
 
@@ -86,8 +87,19 @@ body {
 	font-size: calc($index * 2.9);
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: calc($index * -.15);
+	line-height: 1.5em;
+	margin-top: calc($index * 5.5);
 }
 
 .hero-content span {
 	display: block;
+}
+
+.hero-content p {
+	text-transform: none;
+	font-family: merriweather-italic-3d;
+	letter-spacing: normal;
+	font-size: calc($index * .73);
+	line-height: 3;
 }
