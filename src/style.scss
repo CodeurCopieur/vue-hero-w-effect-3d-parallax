@@ -103,3 +103,18 @@ body {
 	font-size: calc($index * .73);
 	line-height: 3;
 }
+
+.button-start {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: calc($index * .7);
+	letter-spacing: -.02vw;
+	padding: calc($index * .7) calc($index * 1.25);
+
+	background-color: transparent;
+	color: #fff;
+	border: #fff 3px solid;
+	outline: none;
+	cursor: pointer;
+}
