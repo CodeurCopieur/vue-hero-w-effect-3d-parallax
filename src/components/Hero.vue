@@ -37,6 +37,5 @@
         <div class="layers__item layer-6" :style="{ backgroundImage: `url(${layer6})` }"></div>
       </div>
     </section>
-    <div style="height: 100vh;"></div>
   </header>
 </template>
