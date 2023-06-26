@@ -26,7 +26,7 @@
         <div class="layers__item layer-3">
           <div class="hero-content">
             <h1>3D parallax effect <span>HTML/CSS</span></h1>
-            <p class="hero-content__p">a beautiful 3D website with a ‘lens effect’</p>
+            <p class="hero-content__p">a beautiful 3D Hero with a ‘lens effect’</p>
             <button class="button-start">CodeurCopieur</button>
           </div>
         </div>
